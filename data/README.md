@@ -1,4 +1,4 @@
-# Data README File Description
+# Data README Directory Description
 
-This file will contain all the raw and processed data files for this project.
+This directory will contain all the raw and processed data files for this project.
 
