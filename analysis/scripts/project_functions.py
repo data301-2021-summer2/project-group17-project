@@ -7,7 +7,7 @@ def load_and_process():
 
     # Chain 1: import the data and remove unwanted columns
     df1 = (
-        pd.read_csv("../raw/allCetaceanData.csv")
+        pd.read_csv("../data/raw/allCetaceanData.csv")
         .drop('mother',axis='columns')
         .drop('father',axis='columns')
         .drop('region',axis='columns')
@@ -17,7 +17,7 @@ def load_and_process():
     )
     
     # Chain 2: change columns to datetime, remove timestamps, create timespent calculated column
-    df2 = df.assign(
+    df2 = df1.assign(
         originDate=lambda x: pd.to_datetime(x['originDate']).dt.date,
         statusDate=lambda x: pd.to_datetime(x['statusDate']).dt.date,
         timespent=lambda x: x['statusDate'] - x['originDate']
@@ -26,7 +26,7 @@ def load_and_process():
     # Chain 3: change birthdate accuracy value labels
  
     df3 = (
-        df.replace('a','actual')
+        df2.replace('a','actual')
         .replace('e','estimate')
         .replace('u','unknown')
     )
