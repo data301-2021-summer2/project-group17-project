@@ -20,7 +20,7 @@ def load_and_process():
     df2 = df1.assign(
         originDate=lambda x: pd.to_datetime(x['originDate']).dt.date,
         statusDate=lambda x: pd.to_datetime(x['statusDate']).dt.date,
-        timespent=lambda x: x['statusDate'] - x['originDate']
+        timespent=lambda x: (x['statusDate'] - x['originDate']).dt.days
     )
     
     # Chain 3: change birthdate accuracy value labels
