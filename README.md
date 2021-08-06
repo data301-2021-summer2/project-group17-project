@@ -20,13 +20,7 @@ My name is Alex and I am a 3rd year biology major from Camore, Alberta!
 
 ## References
 
-# Check what format of references needed
+- [Cetacean Data](https://pudding.cool/2017/07/cetaceans/)
+- [Cetacean Definition Source](https://www.britannica.com/topic/list-of-cetaceans-2057165#:~:text=Cetaceans%20(order%20Cetacea)%20are%20an,hair%E2%80%94all%20features%20of%20mammals.)
 
-- [Cetacean Data] (https://pudding.cool/2017/07/cetaceans/)
-- [Cetacean Definition Source] (https://www.britannica.com/topic/list-of-cetaceans-2057165#:~:text=Cetaceans%20(order%20Cetacea)%20are%20an,hair%E2%80%94all%20features%20of%20mammals.)
-
-
-{https://pudding.cool/2017/07/cetaceans/
-https://github.com/the-pudding/data/tree/master/cetaceans
-https://www.britannica.com/topic/list-of-cetaceans-2057165#:~:text=Cetaceans%20(order%20Cetacea)%20are%20an,hair%E2%80%94all%20features%20of%20mammals.}
 
