@@ -1,10 +1,10 @@
 # Group 17 - Cetaceans in Captivity
 
-- Your title can change over time.
 
-## Milestones
+## Presentation
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+Click [here](https://youtu.be/nWqwoToHaHU) for the link to my video presentation.
+
 
 ## Describe your topic/interest in about 150-200 words
 
